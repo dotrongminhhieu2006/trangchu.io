@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng Ký Thành Viên</title>
+</head>
+<body>
+    <header>
+        <h1> ĐĂNG KÝ THÀNH VIÊN </h1>
+    </header>
+    <h2> Thông tin tài khoản </h2>
+    <form method="POST" name="#">
+        <table>
+            <tr>
+                <td> Họ và tên </td>
+                <td> <input type="text" name="txtHoTen" required></td>
+            </tr>
+            <tr>
+                <td> Ngày sinh</td>
+                <td><input type="date" name="txtDete" required></td>
+            </tr>
+            <tr>
+                <td> Số điện thoại</td>
+                <td><input type="tel" name="txtTel" required></td>
+            </tr>
+            <tr>
+                <td> Email</td>
+                <td><input type="email" name="txtEmail" required></td>
+            </tr>
+            <tr>
+                <td> Giới tính</td>
+               <td> 
+                <select>
+                    <option value="1">Nam</option>
+                    <option value="2">Nữ</option>
+                </select>
+                <td>
+            </tr>
+            <tr>
+                <td> Quận/Huyện</td>
+                <td> <textarea rows="2" cols="30" required></textarea></td>
+            </tr>
+            <tr>
+                <td> Phường/Xã</td>
+                <td> <textarea rows="2" cols="30" required></textarea></td>
+            </tr>
+            <tr></tr>
+                <td> Tỉnh/Thành Phố</td>
+               <td> 
+                <select>
+                    <option value="1">Hà Nội</option>
+                    <option value="2">Huế</option>
+                    <option value="3">Đà Nẵng</option>
+                    <option value="4">Thành Phố Hồ Chí Minh</option>
+                </select>
+                <td>
+            </tr>
+            <tr>
+                <td> Tài khoản </td>
+                <td><input type="text" name="txtUsername" required></td>
+            </tr> 
+            <tr>
+                <td> Mật khẩu </td>
+                <td><input type="password" name="txtPassword" required></td>
+            </tr> 
+            <tr>
+                <td>Xác nhận mật khẩu </td>
+                <td><input type="password" name="txtRePassword" required></td>
+            </tr> 
+            <tr>
+                <td>&nbsp;</td>
+                <td><input type="submit" value="ĐĂNG KÝ"></td>
+            </tr>
+        <table>
+</body>
+</html>
